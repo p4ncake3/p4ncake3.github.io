@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+button {
+  color: blue;
+  background-color: black;
+}
+#order-white {
+  color: white;
+  border-radius: 10px;
+  border: solid 4px lime;
+}
+#choco-black {
+  color: brown;
+}
+#orange {
+  background-color: black;
+  border-radius: 10px;
+  border: solid 4px orange;
+  width: 150px;
+  color: orange;
+  margin: 0 auto;
+}
+img {
+  border: solid 4px;
+  border-radius: 20px;
+  padding: 4px;
+}
+#yesouh {
+  font-family: "Comic Sans MS";
+}
