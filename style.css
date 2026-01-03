@@ -1,32 +1,67 @@
+/* Body & basic text */
 body {
-  background-color: grey;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0; /* lighter grey for contrast */
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+header, main, footer {
+  padding: 20px;
+}
+
+/* Buttons */
 button {
   color: blue;
   background-color: black;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
 }
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Special pre-order button */
 #order-white {
   color: white;
+  background-color: black;
   border-radius: 10px;
   border: solid 4px lime;
+  font-size: 1.2rem;
+  padding: 12px 25px;
 }
+
+/* Headings */
 #choco-black {
   color: brown;
 }
+
 #orange {
   background-color: black;
   border-radius: 10px;
   border: solid 4px orange;
-  width: 150px;
+  width: 180px;
   color: orange;
-  margin: 0 auto;
+  margin: 10px auto;
+  padding: 5px;
 }
+
+/* Image */
 img {
-  border: solid 4px;
+  border: solid 4px #333;
   border-radius: 20px;
   padding: 4px;
+  margin-top: 10px;
 }
+
+/* Fun text */
 #yesouh {
-  font-family: "Comic Sans MS";
+  font-family: "Comic Sans MS", cursive;
+  margin-top: 10px;
 }
