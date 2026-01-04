@@ -75,7 +75,7 @@ nav ul {
 
 nav a {
     text-decoration: none; /* Removes underline */
-    color: #ff6f61;        /* Link color */
+    color: white;        /* Link color */
     font-weight: bold;
 }
 
@@ -92,14 +92,11 @@ header {
 header h1 {
     margin-bottom: 10px;
 }
-header li {
-  color: white;
-  text-align: center;
-}
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 15px 0;
 }
+
 
