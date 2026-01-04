@@ -65,3 +65,20 @@ img {
   font-family: "Comic Sans MS", cursive;
   margin-top: 10px;
 }
+nav ul {
+    list-style: none; /* Removes the dots */
+    padding: 0;       /* Removes default padding */
+    margin: 0;        /* Removes default margin */
+    display: flex;    /* Makes the links appear in a row */
+    gap: 15px;        /* Space between links */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: #ff6f61;        /* Link color */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
