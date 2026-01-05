@@ -78,6 +78,7 @@ nav a {
     color: white;        /* Link color */
     font-weight: bold;
     text-align: center;
+    padding: 20px;
 }
 
 nav a:hover {
@@ -99,6 +100,7 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
 
 
 
