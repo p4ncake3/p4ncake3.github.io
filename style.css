@@ -79,6 +79,7 @@ nav a {
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    margin-bottom: 10px;
 }
 
 nav a:hover {
@@ -100,6 +101,7 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
 
 
 
